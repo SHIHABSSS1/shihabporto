@@ -32,6 +32,7 @@ yarn-error.log*
 
 # vercel
 .vercel
+<<<<<<< HEAD
 vercel.json
 *vercel*
 
@@ -42,6 +43,12 @@ firebase.json
 *firebase*.md
 *firebase*.ts
 *firebase*.js
+=======
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+>>>>>>> 519540bf3fc8305eff90744da178fe1795a81c1f
 
 # data files
 /data/
