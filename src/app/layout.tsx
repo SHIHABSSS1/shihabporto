@@ -1,7 +1,8 @@
-import '@/styles/globals.css';
+import '../styles/globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import FloatingMessageButton from '@/components/FloatingMessageButton';
+import FloatingMessageButton from '../components/FloatingMessageButton';
+import ClientHeader from '../components/ClientHeader';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
